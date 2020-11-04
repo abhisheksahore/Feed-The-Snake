@@ -1,0 +1,46 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.playArea {
+    display: flex;
+    flex-wrap: wrap;
+    height: 816px;
+    width: 816px;
+    border: 8px solid black;
+}
+
+.square {
+    width: 20px;
+    height: 20px;
+    background-image: url('grass.png');
+    background-color: rgb(0, 65, 0);
+}
+
+.snake {
+    background-image: url('snake.png');
+    background-size: 20px;
+    background-color: rgb(120, 192, 37);
+}
+
+.head {
+    background-image: url('snake.png');
+    background-size: 20px;
+    background-color: rgb(120, 192, 37);
+}
+
+.apple {
+    background-image: url('apple1.png');
+    background-size: 20px;
+    background-color: rgb(120, 192, 37);
+}
+
+.big {
+    height: 100px;
+    width: 100px;
+}
